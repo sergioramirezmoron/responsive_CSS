@@ -1,0 +1,17 @@
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+}
+
+.nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+}
