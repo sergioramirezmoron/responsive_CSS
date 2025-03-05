@@ -1,0 +1,40 @@
+.box {
+    background-color: blue;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .box {
+        background-color: red;
+    }
+}
+
+@media (max-width: 800px) {
+    .box {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .box {
+        width: 50%;
+        background-color: green;
+    }
+}
+
+.body {
+    font-size: 16px;
+}
+
+@media (min-width: 1024px) {
+    .body {
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .body {
+        width: 50%;
+    }
+}
