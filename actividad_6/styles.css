@@ -1,0 +1,20 @@
+
+@media (min-width: 760px) {
+    .movil {
+        display: block;
+        background-color: red;
+    }
+    .escritorio {
+        display: none;
+    }
+}
+
+@media (max-width: 760px) {
+    .movil {
+        display: none;
+    }
+    .escritorio {
+        display: block;
+        background-color: rgb(92, 166, 209);
+    }
+}
